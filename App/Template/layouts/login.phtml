@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login | Dynamic Admin Template</title>
+        <!-- Mobile specific metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+        <!-- Force IE9 to render in normal mode -->
+        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+        <meta name="author" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="application-name" content="" />
+        <meta name="msapplication-TileColor" content="#3399cc" />
+        
+        <?php Ccss_raiz_P_D(); ?>
+    </head>
+    <body class="login-page">
+        <!-- Start login container -->
+        <div class="container login-container">
+            <div class="login-panel panel panel-default plain animated bounceIn">
+                <!-- Start .panel -->
+                <div class="panel-heading">
+                    <h4 class="panel-title text-center">
+                        <img id="logo" src="<?= caminho_raiz();?>assets/img/logo-dark.png" alt="Dynamic logo">
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal mt0" action="home/home/login">
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group input-icon" style="width: 100%;">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input type="text" name="usuario" required class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group input-icon" style="width: 100%;">
+                                    <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                    <input type="password"  name="senha" required class="form-control">
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <span class="help-block text-left"><a href="javascript:;"></a></span> 
+                                <p class="text-left help-block"><button type="submit" class="btn btn-primary" >Login</button></p>
+                                
+                            </div>
+                        </div>
+                        
+                    </form>
+                   
+                </div>
+                
+            </div>
+            <!-- End .panel -->
+        </div>
+        <?php Cjs_raiz_P_D(); ?>
+    </body>
+</html>

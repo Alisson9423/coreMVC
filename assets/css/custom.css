@@ -1,0 +1,150 @@
+/* -----------------------------------------
+   Custom.css - put your own changes here 
+----------------------------------------- */
+
+.formu{
+    margin-bottom: 15px;
+}
+.formu .grupoF .space{
+    margin-bottom:5px;
+}
+.bottom{
+    margin-bottom: 20px
+}
+.label_personalizado{
+    text-align: right;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 18px;
+}
+.formu .grupoF{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:15px;
+}
+
+.calc {
+    width: calc( 100% - 30px ) !important;
+    position: absolute !important;
+}
+
+.form-control_alisson {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-appearance: none;
+    box-shadow: none;
+    padding: 13px 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    z-index: 1;
+}
+
+
+.auto {
+    
+}
+.auto .input:hover {
+    border-color: #999;
+}
+.auto .icon {
+    color: #999;
+    position: absolute;
+    right: 27px;
+    top: 24px;
+}
+.option-list {
+    
+    text-align: left;
+    border: 1px solid #cacaca;
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    width: 100%;
+    background-color:rgba(220,220,220,0.9);
+    position: relative;
+    max-height: 136px;
+    overflow: visible;
+    z-index: 1051;
+    padding: 0px;
+}
+.option-list li.insert {
+    padding: 10px;
+}
+.option-list li {
+    border-bottom: 1px solid #cacaca;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.option-list li:hover {
+    color:white;
+    background-color:rgba(112,128,144,0.9);
+}
+
+
+.baixo{
+    background-color: rgba(255,10,10,0.5) !important;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+.atencao {
+    background-color: rgba(255,255,10,0.5)!important;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+.select_aluno{
+    display: inline-block;
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    height: 45px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-appearance: none;
+    box-shadow: none;
+    padding: 13px 22px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.auto_face{
+    
+}
+
+.auto_face .icon_face {
+    
+    color: #999;
+    position: relative;
+    left: 1em;
+    top: -1.7em;
+}
