@@ -7,6 +7,9 @@ use App\modules\home\Models\homeModel;
 class home extends Controller{
     //por padrão toda classe controller executa automaticamente o method index caso não chame outro method
     public function index(){
+		//carregando variavel na view
+		$this->ola = "olá";
+		
         if(!empty($_COOKIE['d'])):
             $this->load();
         else:
